@@ -17,4 +17,4 @@ def index(request):
 
 
 def thanks(request):
-    return render(request, 'thank.html', {'form': form})
+    return render(request, 'thank.html')
